@@ -1,23 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-
 <head>
-    <title>Dar al noujoum</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dar al Nujum — Accueil</title>
+  <meta name="description" content="Dar al Nujum — Restaurant oriental raffiné. Cuisine traditionnelle revisitée, ambiance chaleureuse." />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
-<header>
-    <nav>
-        <a href="./index.html" class="btnhome">Dar poulet</a>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="logo" aria-label="Dar al Nujum accueil">
+          <h1>Dar al Nujum</h1>
+          <p class="tagline">Cuisine orientale — Raffinement & partage</p>
+        </a>
+      </div>
+      <nav class="main-nav" role="navigation" aria-label="Navigation principale">
         <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" aria-current="page">Accueil</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-    </nav>
-</header>
-
-<h1> Dar al Noujoum</h1>
-
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero" aria-label="Photo du restaurant">
+      <img src="images/hero.jpg" alt="Salle élégante du restaurant Dar al Nujum" class="hero-img">
+      <div class="hero-content container">
+        <h2>Bienvenue à Dar al Nujum</h2>
+        <p class="lead">Un voyage culinaire oriental, dans un cadre raffiné — plats traditionnels sublimés par une touche contemporaine.</p>
+        <p><a class="btn" href="menu.html">Découvrir le menu</a></p>
+      </div>
+    </section>
+    <section class="about container" aria-labelledby="about-title">
+      <div class="about-grid">
+        <div class="about-text">
+          <h3 id="about-title">Notre philosophie</h3>
+          <p>Chez <strong>Dar al Nujum</strong>, nous célébrons les recettes ancestrales. Produits locaux, épices authentiques, dressages soignés — chaque plat raconte une histoire.</p>
+          <ul class="values">
+            <li><strong>Authenticité</strong> — saveurs d'orient</li>
+            <li><strong>Raffinement</strong> — présentation soignée</li>
+            <li><strong>Convivialité</strong> — partage et chaleur</li>
+          </ul>
+        </div>
+        <figure class="about-photo" aria-hidden="true">
+          <img src="images/interior.jpg" alt="Décor intérieur oriental raffiné">
+        </figure>
+      </div>
+    </section>
+    <section class="specials container" aria-labelledby="specials-title">
+      <h3 id="specials-title">Nos spécialités</h3>
+      <div class="cards">
+        <article class="card" aria-labelledby="card1-title">
+          <img src="images/dish1.jpg" alt="Tagine traditionnel">
+          <h4 id="card1-title">Tajine fondant</h4>
+          <p>Épices douces, cuisson lente — une tendreté exceptionnelle.</p>
+        </article>
+        <article class="card" aria-labelledby="card2-title">
+          <img src="images/dish2.jpg" alt="Assiette de mezzés">
+          <h4 id="card2-title">Mezzés raffinés</h4>
+          <p>Petites assiettes pour partager — textures et parfums variés.</p>
+        </article>
+        <article class="card" aria-labelledby="card3-title">
+          <img src="images/dish3.jpg" alt="Dessert oriental">
+          <h4 id="card3-title">Douceurs orientales</h4>
+          <p>Baklawa, cornes de gazelle — arrière-goût de miel et fleur d'oranger.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">Dar al Nujum — Restaurant oriental</p>
+        <p>Adresse fictive · 123 Rue des Étoiles · Ville</p>
+      </div>
+      <nav aria-label="Liens utiles">
+        <ul class="footer-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="legal container">
+      <p>© 2025 Dar al Nujum — Tous droits réservés</p>
+    </div>
+  </footer>
+</body>
 </html>
