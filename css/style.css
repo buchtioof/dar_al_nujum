@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic);
 @import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
 
 body {
@@ -24,7 +24,8 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
     color: #512b20;
 }
 
@@ -193,7 +194,8 @@ footer {
 }
 
 .footer-brand {
-    font-family: 'Playfair Display', serif;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
     font-size: 3rem;
     color: #512b20;
     margin-bottom: .5rem;
