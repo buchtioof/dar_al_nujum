@@ -91,9 +91,11 @@ a:hover {
 }
 
 .btn:hover {
+    color: #fff;
     background: #512b20;
 }
 
+/* About Section */
 .about-grid {
     display: grid;
     gap: 1rem;
@@ -107,6 +109,7 @@ a:hover {
     max-height: 500px;
 }
 
+/* Cards Section */
 .cards {
     display: grid;
     gap: 1rem;
@@ -135,6 +138,7 @@ a:hover {
     padding: 0 1rem;
 }
 
+/* Menu page */
 .menu-list {
     list-style: none;
     padding: 0;
@@ -155,6 +159,7 @@ a:hover {
     font-weight: 600;
 }
 
+/* Contact Page */
 form {
     background: #fff;
     padding: 1rem;
@@ -180,6 +185,7 @@ button.btn {
     cursor: pointer;
 }
 
+/* Footer */
 footer {
     margin-top: 2rem;
     text-align: center;
@@ -193,6 +199,7 @@ footer {
     margin-bottom: .5rem;
 }
 
+/* Responsive */
 @media(min-width:760px) {
     .about-grid {
         grid-template-columns: 1fr 400px;

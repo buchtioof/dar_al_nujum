@@ -10,26 +10,31 @@
 </head>
 
 <body>
-  <header class="site-header">
+  <header role="banner">
     <div class="container header-inner">
-      <div class="brand"><a href="index.html" class="logo">
+      <div class="brand">
+        <a href="./index.html" class="logo" aria-label="Dar al Nujum accueil">
           <h1>Dar al Nujum</h1>
-        </a></div>
-      <nav class="main-nav" aria-label="Navigation principale">
+          <p class="tagline">Cuisine orientale — Raffinement & partage</p>
+        </a>
+      </div>
+      <nav class="main-nav" role="navigation" aria-label="Navigation principale">
         <ul>
-          <li><a href="./index.html">Accueil</a></li>
+          <li><a href="./index.html" aria-current="page">Accueil</a></li>
           <li><a href="./menu.html">Menu</a></li>
-          <li><a href="./contact.html" aria-current="page">Contact</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
+
   <main class="container">
     <section class="contact-hero" aria-label="Coordonnées">
       <h2>Contact & Réservations</h2>
       <p>Pour réserver une table ou nous envoyer un message, utilisez le formulaire ci-dessous ou appelez-nous.</p>
-      <p><strong>Téléphone :</strong> 01 23 45 67 89 · <strong>Adresse :</strong> 123 Rue des Étoiles, Ville</p>
+      <p><strong>Téléphone :</strong> 01 23 45 67 89 · <strong>Adresse :</strong> 292 Rue Saint Martin, Paris 75003</p>
     </section>
+    
     <section class="contact-form" aria-labelledby="contact-form-title">
       <h3 id="contact-form-title">Envoyez-nous un message</h3>
       <form action="#" method="post" novalidate>
@@ -50,18 +55,16 @@
       </form>
     </section>
   </main>
-  <footer class="site-footer">
+
+  <footer class="site-footer" role="contentinfo">
     <div class="container footer-inner">
       <div>
-        <p class="footer-brand">Dar al Nujum</p>
+        <p class="footer-brand">دار النجوم</p>
+        <p>292 Rue Saint Martin · Paris 75003</p>
       </div>
-      <nav aria-label="Liens utiles">
-        <ul class="footer-links">
-          <li><a href="./index.html">Accueil</a></li>
-          <li><a href="./menu.html">Menu</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-      </nav>
+    </div>
+    <div class="legal container">
+      <p>© 2025 Dar al Nujum — Tous droits réservés</p>
     </div>
   </footer>
 </body>
