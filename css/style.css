@@ -1,31 +1,186 @@
-/* CSS principal du site Dar al Nujum - version condensée */
-body{margin:0;font-family:'Inter',sans-serif;background:#faf6f3;color:#2b2b2b;line-height:1.5}
-header,footer{background:rgba(107,58,42,0.05)}
-.container{width:90%;max-width:1100px;margin:0 auto}
-h1,h2,h3,h4{font-family:'Playfair Display',serif;color:#512b20}
-a{text-decoration:none;color:#6b3a2a}
-a:hover{color:#512b20}
-.site-header .header-inner{display:flex;justify-content:space-between;align-items:center;padding:1rem 0}
-.main-nav ul{list-style:none;display:flex;gap:1rem;margin:0;padding:0}
-.main-nav a{padding:.3rem .6rem;border-radius:8px;transition:.2s}
-.main-nav a:hover{background:rgba(107,58,42,0.1)}
-.hero{position:relative;margin:1rem 0}
-.hero-img{width:100%;border-radius:12px;object-fit:cover;max-height:500px}
-.hero-content{position:absolute;bottom:1.5rem;left:1.5rem;color:#fff;text-shadow:0 3px 6px rgba(0,0,0,.4)}
-.btn{display:inline-block;background:#6b3a2a;color:#fff;padding:.6rem 1rem;border-radius:10px}
-.btn:hover{background:#512b20}
-.about-grid{display:grid;gap:1rem;margin-top:1rem}
-.about-photo img{width:100%;border-radius:10px}
-.cards{display:grid;gap:1rem;margin-top:1rem}
-.card{background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,0.05);transition:.2s}
-.card:hover{transform:translateY(-5px)}
-.card img{width:100%;height:180px;object-fit:cover}
-.menu-list{list-style:none;padding:0;display:grid;gap:.8rem}
-.menu-list li{background:#fff;padding:1rem;border-radius:10px;display:flex;justify-content:space-between}
-.price{color:#6b3a2a;font-weight:600}
-form{background:#fff;padding:1rem;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,.05)}
-.form-row{display:flex;flex-direction:column;margin-bottom:.8rem}
-input,select,textarea{padding:.6rem;border:1px solid #ddd;border-radius:8px}
-button.btn{cursor:pointer}
-footer{margin-top:2rem;padding:1rem 0;text-align:center;color:#7b6b66}
-@media(min-width:760px){.about-grid{grid-template-columns:1fr 400px}.cards{grid-template-columns:repeat(3,1fr)}}
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #faf6f3;
+    color: #2b2b2b;
+    line-height: 1.5;
+}
+
+header,
+footer {
+    background: rgba(107, 58, 42, 0.05);
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Playfair Display', serif;
+    color: #512b20;
+}
+
+a,p {
+    text-decoration: none;
+    color: #6b3a2a;
+}
+
+a:hover {
+    color: #512b20;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav a {
+    padding: .3rem .6rem;
+    border-radius: 8px;
+    transition: .2s;
+}
+
+.main-nav a:hover {
+    background: rgba(107, 58, 42, 0.1);
+}
+
+.hero {
+    padding: 5rem 0;
+}
+
+.hero-img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+.hero-content {
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    background: #6b3a2a;
+    color: #fff;
+    padding: .6rem 1rem;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: #512b20;
+}
+
+.about-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.about-photo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cards {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+    transition: .2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: .8rem;
+}
+
+.menu-list li {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    color: #6b3a2a;
+    font-weight: 600;
+}
+
+form {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .05);
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .8rem;
+}
+
+input,
+select,
+textarea {
+    padding: .6rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+button.btn {
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1rem 0;
+    text-align: center;
+    color: #7b6b66;
+}
+
+@media(min-width:760px) {
+    .about-grid {
+        grid-template-columns: 1fr 400px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

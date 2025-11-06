@@ -6,15 +6,12 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Dar al Nujum — Accueil</title>
   <meta name="description"
-    content="Dar al Nujum — Restaurant oriental raffiné. Cuisine traditionnelle revisitée, ambiance chaleureuse." />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
+    content="Dar al Nujum — Cuisine du maghreb revisitée." />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
-  <header class="site-header" role="banner">
+  <header role="banner">
     <div class="container header-inner">
       <div class="brand">
         <a href="./index.html" class="logo" aria-label="Dar al Nujum accueil">
@@ -31,17 +28,18 @@
       </nav>
     </div>
   </header>
+
   <main>
-    <section class="hero" aria-label="Photo du restaurant">
-      <img src="./images/hero.jpg" alt="Salle élégante du restaurant Dar al Nujum" class="hero-img">
-      <div class="hero-content container">
+    <section class="hero container" aria-label="Premiere section avec image et texte d'accueil">
+      <img class="hero-img" src="./images/hero.jpg" alt="Photo du restaurant">
+      <div class="hero-content">
         <h2>Bienvenue à Dar al Nujum</h2>
         <p class="lead">Un voyage culinaire oriental, dans un cadre raffiné — plats traditionnels sublimés par une
           touche contemporaine.</p>
         <p><a class="btn" href="./menu.html">Découvrir le menu</a></p>
       </div>
     </section>
-    <section class="about container" aria-labelledby="about-title">
+    <section class="about container" aria-label="Seconde section avec texte a propos du restaurant">
       <div class="about-grid">
         <div class="about-text">
           <h3 id="about-title">Notre philosophie</h3>
@@ -53,9 +51,7 @@
             <li><strong>Convivialité</strong> — partage et chaleur</li>
           </ul>
         </div>
-        <figure class="about-photo" aria-hidden="true">
-          <img src="./images/interior.jpg" alt="Décor intérieur oriental raffiné">
-        </figure>
+        <img class="about-photo" src="./images/interior.jpg" alt="Décor intérieur oriental raffiné">
       </div>
     </section>
     <section class="specials container" aria-labelledby="specials-title">
@@ -79,22 +75,16 @@
       </div>
     </section>
   </main>
+  
   <footer class="site-footer" role="contentinfo">
     <div class="container footer-inner">
       <div>
         <p class="footer-brand">Dar al Nujum — Restaurant oriental</p>
-        <p>Adresse fictive · 123 Rue des Étoiles · Ville</p>
+        <p>292 Rue Saint Martin · Paris 75003</p>
       </div>
-      <nav aria-label="Liens utiles">
-        <ul class="footer-links">
-          <li><a href="./index.html">Accueil</a></li>
-          <li><a href="./menu.html">Menu</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-      </nav>
     </div>
     <div class="legal container">
-      <p>© 2025 Dar al Nujum — Tous droits réservés</p>
+      <p>© 2025 MaghrebUnited — Tous droits réservés</p>
     </div>
   </footer>
 </body>
