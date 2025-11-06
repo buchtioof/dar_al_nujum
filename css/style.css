@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
 @import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
@@ -36,6 +37,8 @@ a:hover {
     color: #512b20;
 }
 
+/* Navigation */
+
 .header-inner {
     display: flex;
     justify-content: space-between;
@@ -61,8 +64,10 @@ a:hover {
     background: rgba(107, 58, 42, 0.1);
 }
 
+/* Hero Section */
+
 .hero {
-    padding: 5rem 0;
+    padding: 3rem 0;
 }
 
 .hero-img {
