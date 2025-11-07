@@ -38,18 +38,7 @@ En pratique :
 
 ## 🎨 Charte graphique
 
-- **Couleurs dominantes :**
-  - Brun chaud `#6b3a2a`
-  - Beige clair `#faf6f3`
-  - Accent foncé `#512b20`
-
-- **Polices :**
-  - Titres : *Playfair Display*
-  - Corps de texte : *Inter*
-
-- **Style général :**
-  - Ambiance orientale et élégante
-  - Design épuré, lisible et équilibré
+![Charte Graphique](./images/charte_graphique.png)
 
 ---
 
