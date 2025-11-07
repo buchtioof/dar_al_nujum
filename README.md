@@ -13,7 +13,7 @@ En pratique :
 ---
 
 ## 🧭 Objectif du projet
-> Créer un site web statique multi-pages (3 pages minimum) **sans frameworks** (HTML & CSS uniquement) pour démontrer la maîtrise des fondamentaux du développement front-end.
+> Créer un site web statique avec au moins 3 pages en utilisant **uniquement HTML & CSS**.
 
 ---
 
@@ -31,8 +31,7 @@ En pratique :
 
 - **HTML5** — structure sémantique
 - **CSS3** — mise en page responsive (Flexbox, Grid)
-- **Google Fonts** : Playfair Display, Inter  
-- **Aucune librairie / framework** externe (Bootstrap, Tailwind, JS...)
+- **Google Fonts**
 
 ---
 
@@ -73,19 +72,6 @@ dar-al-nujum/
 
 Le site sera accessible à l’adresse :  
 `https://buchtioof.github.io/dar_al_nujum/`
-
----
-
-## ✅ Validation du cahier des charges
-
-| Critère | Statut |
-|----------|--------|
-| HTML sémantique & hiérarchisé | ✔️ |
-| CSS cohérent & responsive | ✔️ |
-| Accessibilité (alt, label, contrastes) | ✔️ |
-| Transitions et effets hover | ✔️ |
-| Structure de fichiers claire | ✔️ |
-| Minimum 3 pages | ✔️ |
 
 ---
 
