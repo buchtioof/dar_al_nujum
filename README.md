@@ -71,7 +71,7 @@ dar-al-nujum/
 ## 🚀 Mise en ligne
 
 Le site sera accessible à l’adresse :  
-`https://buchtioof.github.io/dar_al_nujum/`
+[https://buchtioof.github.io/dar_al_nujum/](https://buchtioof.github.io/dar_al_nujum/)
 
 ---
 
